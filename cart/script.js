@@ -83,8 +83,8 @@ function renderItems(item) {
   document.querySelector("#pay-btn").addEventListener("click",()=>{
     localStorage.setItem("cart", JSON.stringify([]))
     alert("The items were purchased")
-    window.location.href="../razorpay/index.html"
+    // window.location.href="../razorpay/index.html"
     
-    // window.open("../razorpay/index.html", "_blank");
+    window.open("../razorpay/index.html", "_blank");
     
   })
